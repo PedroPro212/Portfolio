@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=PT+Serif:ital@1&family=Secular+One&display=swap');
+
+body{
+    background-color:#1A1A21;
+    color:white;
+    overflow-x:hidden;
+}
+
+.txts{
+    color:black;
+    border-radius:5px;
+    border-width:1px;
+}
+.email{
+    margin-top:20px;
+}
+.descricao{
+    margin-top:20px;
+    border-radius:5px;
+    border-width:1px;
+}
+
+.botao{
+    margin-top:20px;
+    width:492px;
+    height:35px;
+    background-color:#03CFB0;
+    color:white;
+    font-family: 'Secular One', sans-serif;
+    border-radius:10px;
+    border:none;
+}
+    .botao:hover{
+        background-color:#00b4fc;
+        font-size:15px;
+    }
+.Opcao{
+    margin-top:20px;
+    color:black;
+}
