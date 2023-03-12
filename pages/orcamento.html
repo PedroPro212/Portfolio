@@ -9,80 +9,74 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="/style/orcamento.css" type="text/css" rel="stylesheet">
+    <link href="/style/navbar.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #1A1A21;">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" runat="server" href="../index.html">Dev</a>
+    <header>
+        <nav>
+          <a class="logo" href="/index.html" style="text-decoration: none;">Programação Diária</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="/index.html">Início</a></li>
+            <li><a href="/pages/habilidades.html">Habilidades</a></li>
+            <li><a href="/pages/orcamento.html">Orçamento</a></li>
+            <li><a href="/pages/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container text-center" style="width:80%; font-family: 'Secular One', sans-serif; margin-top:50px;">
+            <div class="row">
+                <h1 style="text-decoration:none;">Necessitando de um <a style="color:#03CFB0">site</a>,<br /><a style="color:#8F3EF4; text-decoration:none;">automação</a>/<a style="color:#03CFB0; text-decoration:none;">bot</a> ou <a style="color:#8F3EF4; text-decoration:none;">aplicação</a>?</h1>
+                <p style="color:white; font-size:18px; margin-top:40px;">Sem sombras de dúvidas um comércio necessita de um WebSite para conseguir destque na internet em 2022, ou um WebApp para gerir uma loja ou algo parecido.  Também exixte a automação de sistema web, onde aquela tarefa 
+                    que você faz repetidas vezes acaba sendo automatizada, assim fazendo você ecônomizar tempo!</p>
             </div>
-            <div class="navbar-collapse collapse" style="font-size:17px">
-                <ul class="nav navbar-nav">
-                    
-                    <li class="dropdown">
-                    <a class="dropdown-toggle"  href="/pages/habilidades.html">Habilidades</a>
-
-
-                    <li class="dropdown">
-                    <a class="dropdown-toggle"  href="/pages/orcamento.html">Orçamento</a>
-
-                            
-                </ul>
-            </div>
-             
         </div>
-    </div>
-
-    <div class="container text-center" style="width:80%; font-family: 'Secular One', sans-serif; margin-top:50px;">
-        <div class="row">
-            <h1 style="text-decoration:none;">Necessitando de um <a style="color:#03CFB0">site</a>,<br /><a style="color:#8F3EF4; text-decoration:none;">automação</a>/<a style="color:#03CFB0; text-decoration:none;">bot</a> ou <a style="color:#8F3EF4; text-decoration:none;">aplicação</a>?</h1>
-            <p style="color:white; font-size:18px; margin-top:40px;">Sem sombras de dúvidas um comércio necessita de um WebSite para conseguir destque na internet em 2022, ou um WebApp para gerir uma loja ou algo parecido.  Também exixte a automação de sistema web, onde aquela tarefa 
-                que você faz repetidas vezes acaba sendo automatizada, assim fazendo você ecônomizar tempo!</p>
-        </div>
-    </div>
-
-    <div class="container" style="margin-top:80px;">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3 style="font-size:30px; margin-bottom:30px;">Descreva para mim o que precisa:</h3>
-                <p style="font-size:15px; text-align:left; margin-bottom:25px;"><img runat="server" src="../img/seta.png" width="30" />Descreva o máximo que conseguir, assim conseguimos retornar com mais agilidade</p>
-                <p style="font-size:15px; text-align:left; margin-bottom:25px;"><img runat="server" src="../img/seta.png" width="30" />Se for um site descreva como deve ser na sua mente. Funcionalidades, layout, cores, se vai possuir vídeos e etc...</p>
-                <p style="font-size:15px; text-align:left; margin-bottom:25px;"><img runat="server" src="../img/seta.png" width="30" />Se for uma automação descreva o que precisa automatizar em detalhes, se é site que obriga a fazer login, obriga a mexer com relatório, excel e etc...</p>
-            </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-6" style="margin-top:40px;">
-                <div class="container">
-                    <div style="width:546px; height:259px; background-color:#c4ceb0; border-radius:20px;">
-                        <div class="col-sm-5" style="margin-left:28px; margin-top:30px;">
-                            <input type="text" class="=txts" width="349" height="30" placeholder="Nome:">
-                            <input type="email" class="txts email" width="349" height="30" placeholder="Email:">
-                            <textarea runat="server" class="descricao" id="txadescricao" Width="349" Height="30" cols="40" ForeColor="Black" placeholder="Descrição:" style="color:black;"></textarea>
+    
+        <div class="container" style="margin-top:80px;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 style="font-size:30px; margin-bottom:30px;">Descreva para mim o que precisa:</h3>
+                    <p style="font-size:15px; text-align:left; margin-bottom:25px;"><img runat="server" src="../img/seta.png" width="30" />Descreva o máximo que conseguir, assim conseguimos retornar com mais agilidade</p>
+                    <p style="font-size:15px; text-align:left; margin-bottom:25px;"><img runat="server" src="../img/seta.png" width="30" />Se for um site descreva como deve ser na sua mente. Funcionalidades, layout, cores, se vai possuir vídeos e etc...</p>
+                    <p style="font-size:15px; text-align:left; margin-bottom:25px;"><img runat="server" src="../img/seta.png" width="30" />Se for uma automação descreva o que precisa automatizar em detalhes, se é site que obriga a fazer login, obriga a mexer com relatório, excel e etc...</p>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6" style="margin-top:40px;">
+                    <div class="container">
+                        <div style="width:546px; height:259px; background-color:#c4ceb0; border-radius:20px;">
+                            <div class="col-sm-5" style="margin-left:28px; margin-top:30px;">
+                                <input type="text" class="=txts" width="349" height="30" placeholder="Nome:">
+                                <input type="email" class="txts email" width="349" height="30" placeholder="Email:">
+                                <textarea runat="server" class="descricao" id="txadescricao" Width="349" Height="30" cols="40" ForeColor="Black" placeholder="Descrição:" style="color:black;"></textarea>
+                            </div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-4" style="margin-top:30px;">
+                                <input type="text" class="txts" width="130" height="30" placeholder="Tel: 35997444848">
+                                <select runat="server" name="select" class="Opcao" id="sltOpcoes">
+                                    <option value="">Escolha</option>
+                                    <option value="WebSite">WebSite</option>
+                                    <option value="LojaOnline">Loja Online</option>
+                                    <option value="Programa">Programa</option>
+                                    <option value="Automacao">Automação</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12">
+                                <button class="botao" id="btnEnviar">Pedir Orçamento</button>
+                            </div>
+                            <asp:Label runat="server" ID="lblData" Visible="false"></asp:Label>
                         </div>
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-4" style="margin-top:30px;">
-                            <input type="text" class="txts" width="130" height="30" placeholder="Tel: 35997444848">
-                            <select runat="server" name="select" class="Opcao" id="sltOpcoes">
-                                <option value="">Escolha</option>
-                                <option value="WebSite">WebSite</option>
-                                <option value="LojaOnline">Loja Online</option>
-                                <option value="Programa">Programa</option>
-                                <option value="Automacao">Automação</option>
-                            </select>
-                        </div>
-                        <div class="col-sm-12">
-                            <button class="botao" id="btnEnviar">Pedir Orçamento</button>
-                        </div>
-                        <asp:Label runat="server" ID="lblData" Visible="false"></asp:Label>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+    <script src="/script/navbar.js"></script>
 </body>
 </html>

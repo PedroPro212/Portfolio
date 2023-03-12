@@ -9,121 +9,116 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="/style/habilidades.css" type="text/css" rel="stylesheet">
+    <link href="/style/navbar.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #1A1A21;">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" runat="server" href="/index.html">Dev</a>
-            </div>
-            <div class="navbar-collapse collapse" style="font-size:17px">
-                <ul class="nav navbar-nav">
-                    
-                    <li class="dropdown">
-                    <a class="dropdown-toggle"  href="/pages/habilidades.html">Habilidades</a>
+    <header>
+        <nav>
+          <a class="logo" href="/index.html" style="text-decoration: none;">Programação Diária</a>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="/index.html">Início</a></li>
+            <li><a href="/pages/habilidades.html">Habilidades</a></li>
+            <li><a href="/pages/orcamento.html">Orçamento</a></li>
+            <li><a href="/pages/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+    </header>
 
-
-                    <li class="dropdown">
-                    <a class="dropdown-toggle"  href="/pages/orcamento.html">Orçamento</a>
-
-                            
-                </ul>
-            </div>
-             
-        </div>
-    </div>
-
-    <div class="container" style="margin-top:90px;">
-        <div class="row">
-            <div class="col-sm-5" style="font-family: 'Secular One', sans-serif; ">
-                <h1 class="text-left"><a style="color:#03CFB0; text-decoration:none;">Habilidades</a> e <a style="color:#8F3EF4; text-decoration:none;">Áreas</a> de <a style="color:#8F3EF4; text-decoration:none;">Conhecimento</a></h1>
-                <p class="text-left" style="font-size:20px; margin-top:30px;">Um desenvolvedor têm que saber de tudo um pouco. Um pouco da parte Web, do Frontend e do Backend, de layout e de estruturação de códigos. </p>
-
-                <p class="text-left" style="margin-top:90px;">*Clique em cima das tecnologias</p>
-                <div>
-                    <input type="button" class="tecnologias" id="btnHtml" value="HTML/CSS" />
-                    <input type="button" class="tecnologias" id="btnJavascript" value="Javascript" />
-                    <input type="button" class="tecnologias" id="btnC" value="C#" />
-                    <input type="button" class="tecnologias" id="btnPython" value="Python" />
-                    <input type="button" class="tecnologias" id="btnSql" value="Sql/MySql" />
-                    <input type="button" class="tecnologias" id="btnGit" value="Git" />
-                    <input type="button" class="tecnologias" id="btnFigma" value="Figma" />
+    <main>
+        <div class="container" style="margin-top:90px;">
+            <div class="row">
+                <div class="col-sm-5" style="font-family: 'Secular One', sans-serif; ">
+                    <h1 class="text-left"><a style="color:#03CFB0; text-decoration:none;">Habilidades</a> e <a style="color:#8F3EF4; text-decoration:none;">Áreas</a> de <a style="color:#8F3EF4; text-decoration:none;">Conhecimento</a></h1>
+                    <p class="text-left" style="font-size:20px; margin-top:30px;">Um desenvolvedor têm que saber de tudo um pouco. Um pouco da parte Web, do Frontend e do Backend, de layout e de estruturação de códigos. </p>
+    
+                    <p class="text-left" style="margin-top:90px;">*Clique em cima das tecnologias</p>
+                    <div>
+                        <input type="button" class="tecnologias" id="btnHtml" value="HTML/CSS" />
+                        <input type="button" class="tecnologias" id="btnJavascript" value="Javascript" />
+                        <input type="button" class="tecnologias" id="btnC" value="C#" />
+                        <input type="button" class="tecnologias" id="btnPython" value="Python" />
+                        <input type="button" class="tecnologias" id="btnSql" value="Sql/MySql" />
+                        <input type="button" class="tecnologias" id="btnGit" value="Git" />
+                        <input type="button" class="tecnologias" id="btnFigma" value="Figma" />
+                    </div>
+                    <div class="center-block" id="div1" style="width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
+                        <p style="margin-top:10px;">HTML/CSS</p>
+                        <p>Para qualquer site bem estruturado e estilizado é necessário ter uma boa base HTML e uma boa folha de estilos CSS.</p>
+                        <ul class="text-left">
+                            <li>Bootstrap</li>
+                            <li>Principais tags html</li>
+                            <li>Principais tags css</li>
+                        </ul>
+                    </div>
+                    <div class="center-block" id="div2" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
+                        <p style="margin-top:10px;">Javascript</p>
+                        <p>A inteligencia de um site por trás da estrutura sem dúvidas é o Javascript, é nele que toda a mágica visual e não visual acontece.</p>
+                        <ul class="text-left">
+                            <li>Manipulação de página</li>
+                            <li>Inserção e administração</li>
+                        </ul>
+                    </div>
+                    <div class="center-block" id="div3" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
+                        <p style="margin-top:10px;">C#</p>
+                        <p>E por trá de todo o processo inteligente do site está uma linguagem Backend, sendo ela a responsavel por manipular dados, registros ou todo o processo.</p>
+                        <ul class="text-left">
+                            <li>Toda a parte inlerligada com banco de dados</li>
+                            <li>Parte por trás de todo processo</li>
+                        </ul>
+                    </div>
+                    <div class="center-block" id="div4" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
+                        <p style="margin-top:10px;">Python</p>
+                        <p>Python também é uma linguagem Backend, sendo umas das linguagens mais utilizadas do mundo atualmente.</p>
+                        <ul class="text-left">
+                            <li>Criação de sites</li>
+                            <li>Criação de Bot/Automações</li>
+                        </ul>
+                    </div>
+                     <div class="center-block" id="div5" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
+                        <p style="margin-top:10px;">Sql/MySql</p>
+                        <p>Sem dúvidas uma boa base de dados é fundamental para uma aplicação que envolva almazenagem de dados.</p>
+                        <ul class="text-left">
+                            <li>MER</li>
+                            <li>ML</li>
+                            <li>Script</li>
+                        </ul>
+                    </div>
+                    <div class="center-block" id="div6" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
+                        <p style="margin-top:10px;">Git</p>
+                        <p>Um programador sem o Git é a mesma coisa que um carro sem a chave.</p>
+                        <ul class="text-left">
+                            <li>Commit</li>
+                            <li>PR</li>
+                            <li>Branchs</li>
+                        </ul>
+                    </div>
+                    <div class="center-block" id="div7" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
+                        <p style="margin-top:10px;">Figma</p>
+                        <p>E para um desenvolvedor Frontend sem dúvidas umas das melhores ferramentas é de designer é o Figma.</p>
+                        <ul class="text-left">
+                            <li>Layout</li>
+                            <li>Cores</li>
+                            <li>Criação de telas</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="center-block" id="div1" style="width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
-                    <p style="margin-top:10px;">HTML/CSS</p>
-                    <p>Para qualquer site bem estruturado e estilizado é necessário ter uma boa base HTML e uma boa folha de estilos CSS.</p>
-                    <ul class="text-left">
-                        <li>Bootstrap</li>
-                        <li>Principais tags html</li>
-                        <li>Principais tags css</li>
-                    </ul>
-                </div>
-                <div class="center-block" id="div2" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
-                    <p style="margin-top:10px;">Javascript</p>
-                    <p>A inteligencia de um site por trás da estrutura sem dúvidas é o Javascript, é nele que toda a mágica visual e não visual acontece.</p>
-                    <ul class="text-left">
-                        <li>Manipulação de página</li>
-                        <li>Inserção e administração</li>
-                    </ul>
-                </div>
-                <div class="center-block" id="div3" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
-                    <p style="margin-top:10px;">C#</p>
-                    <p>E por trá de todo o processo inteligente do site está uma linguagem Backend, sendo ela a responsavel por manipular dados, registros ou todo o processo.</p>
-                    <ul class="text-left">
-                        <li>Toda a parte inlerligada com banco de dados</li>
-                        <li>Parte por trás de todo processo</li>
-                    </ul>
-                </div>
-                <div class="center-block" id="div4" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
-                    <p style="margin-top:10px;">Python</p>
-                    <p>Python também é uma linguagem Backend, sendo umas das linguagens mais utilizadas do mundo atualmente.</p>
-                    <ul class="text-left">
-                        <li>Criação de sites</li>
-                        <li>Criação de Bot/Automações</li>
-                    </ul>
-                </div>
-                 <div class="center-block" id="div5" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
-                    <p style="margin-top:10px;">Sql/MySql</p>
-                    <p>Sem dúvidas uma boa base de dados é fundamental para uma aplicação que envolva almazenagem de dados.</p>
-                    <ul class="text-left">
-                        <li>MER</li>
-                        <li>ML</li>
-                        <li>Script</li>
-                    </ul>
-                </div>
-                <div class="center-block" id="div6" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
-                    <p style="margin-top:10px;">Git</p>
-                    <p>Um programador sem o Git é a mesma coisa que um carro sem a chave.</p>
-                    <ul class="text-left">
-                        <li>Commit</li>
-                        <li>PR</li>
-                        <li>Branchs</li>
-                    </ul>
-                </div>
-                <div class="center-block" id="div7" style="display:none;width:400px; margin-top:30px; border-width:2px; border-style:solid;border-color:#03CFB0; border-radius:3px;">
-                    <p style="margin-top:10px;">Figma</p>
-                    <p>E para um desenvolvedor Frontend sem dúvidas umas das melhores ferramentas é de designer é o Figma.</p>
-                    <ul class="text-left">
-                        <li>Layout</li>
-                        <li>Cores</li>
-                        <li>Criação de telas</li>
-                    </ul>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5">
+                    <img runat="server" src="../img/pronto.png" width="400" />
                 </div>
             </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-5">
-                <img runat="server" src="../img/pronto.png" width="400" />
-            </div>
-        </div>
-    </div>
-
+        </div>    
+    </main>
+    
     <script src="/script/habilidades.js"></script>
+    <script src="/script/navbar.js"></script>
 
 </body>
 </html>
