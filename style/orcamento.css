@@ -6,23 +6,43 @@ body{
     overflow-x:hidden;
 }
 
+.quadro{
+    width:546px; 
+    height:259px; 
+    background-color:#c4ceb0; 
+    border-radius:20px;
+}
+
 .txts{
     color:black;
     border-radius:5px;
     border-width:1px;
+    height: 30px;
 }
+
+.nome{
+    width: 30vh;
+}
+
 .email{
+    width: 30vh;
     margin-top:20px;
 }
+
 .descricao{
     margin-top:20px;
     border-radius:5px;
     border-width:1px;
+    width: 30vh;
+}
+
+.telefone{
+    width: 15vh;
 }
 
 .botao{
     margin-top:20px;
-    width:492px;
+    width:35vh;
     height:35px;
     background-color:#03CFB0;
     color:white;
@@ -37,4 +57,21 @@ body{
 .Opcao{
     margin-top:20px;
     color:black;
+}
+
+.teste{
+    margin-top:30px;
+}
+
+@media screen and (max-width:480px) and (min-width:320px){
+    /*Celular*/
+    .quadro{
+        width: 40vh;
+        height: 42vh;
+        padding-top: 1px
+    }
+
+    .teste{
+        margin-top: 5px;
+    }
 }

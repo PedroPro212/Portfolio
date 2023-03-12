@@ -50,16 +50,16 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-6" style="margin-top:40px;">
                     <div class="container">
-                        <div style="width:546px; height:259px; background-color:#c4ceb0; border-radius:20px;">
+                        <div class="quadro">
                             <div class="col-sm-5" style="margin-left:28px; margin-top:30px;">
-                                <input type="text" class="=txts" width="349" height="30" placeholder="Nome:">
-                                <input type="email" class="txts email" width="349" height="30" placeholder="Email:">
-                                <textarea runat="server" class="descricao" id="txadescricao" Width="349" Height="30" cols="40" ForeColor="Black" placeholder="Descrição:" style="color:black;"></textarea>
+                                <input type="text" class="txts nome" placeholder="Nome:">
+                                <input type="email" class="txts email" placeholder="Email:">
+                                <textarea class="descricao" id="txadescricao" cols="40" ForeColor="Black" placeholder="Descrição:" style="color:black;"></textarea>
                             </div>
                             <div class="col-sm-2"></div>
-                            <div class="col-sm-4" style="margin-top:30px;">
-                                <input type="text" class="txts" width="130" height="30" placeholder="Tel: 35997444848">
-                                <select runat="server" name="select" class="Opcao" id="sltOpcoes">
+                            <div class="col-sm-4 text-center teste">
+                                <input type="text" class="txts telefone" placeholder="Tel: 35997444848">
+                                <select name="select" class="Opcao" id="sltOpcoes">
                                     <option value="">Escolha</option>
                                     <option value="WebSite">WebSite</option>
                                     <option value="LojaOnline">Loja Online</option>
@@ -67,7 +67,7 @@
                                     <option value="Automacao">Automação</option>
                                 </select>
                             </div>
-                            <div class="col-sm-12">
+                            <div class="col-sm-12 text-center">
                                 <button class="botao" id="btnEnviar">Pedir Orçamento</button>
                             </div>
                             <asp:Label runat="server" ID="lblData" Visible="false"></asp:Label>
