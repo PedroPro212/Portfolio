@@ -243,12 +243,14 @@ body{
     }
 
     .download{
-        margin:auto;
-        margin-top:10px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     .quadro{
         margin-top:10px;
+        margin-bottom: 15px;
     }
 
     .quadros{
@@ -280,6 +282,7 @@ body{
     .precisa{
         width:270px;
         height:180px;
+        margin-bottom: 50px;
     }
     .precisa h3{
         margin-top:20px;
