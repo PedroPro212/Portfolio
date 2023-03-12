@@ -3,6 +3,7 @@
 body{
     background-color:#1A1A21;
     color:white;
+    overflow-x:hidden;
 }
 
 .tecnologias{

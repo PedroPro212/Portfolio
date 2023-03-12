@@ -209,12 +209,11 @@ body{
     margin-top:30px;
 }
 
-
-
 @media screen and (max-width:480px) and (min-width:320px){
     /*Celular*/
     body{
         background-color:#1A1A21;
+        overflow-x: hidden;
     }
 
     .escrita{
@@ -299,6 +298,7 @@ body{
     body{
         /*background-color:#1A1A21;*/
         background-color:yellow;
+        overflow-x: hidden;
     }
 
     .escrita{
@@ -371,6 +371,7 @@ body{
     /*Laptop*/
     body{
         background-color:gray;
+        overflow-x: hidden;
     }
 
     .escrita{
@@ -389,6 +390,7 @@ body{
     /*Desktops*/
     body{
         background-color:blueviolet;
+        overflow-x: hidden;
     }
 
     .perfil{
@@ -437,6 +439,7 @@ body{
     /*Tvs*/
     body{
         background-color:#1A1A21;
+        overflow-x: hidden;
     }
 
     .quadros{
