@@ -370,17 +370,53 @@ body{
 @media screen and (min-width:780px) and (max-width:1024px){
     /*Laptop*/
     body{
-        background-color:gray;
+        /*background-color:gray;*/
+        background-color:#1A1A21;
         overflow-x: hidden;
+    }
+
+    .perfil{
+        width: 260px;
+    }
+
+    .notebook{
+        margin-left: 0vh;
+        width: 270px;
     }
 
     .escrita{
         margin-left:50px
     }
 
+    .recentes{
+        margin:1vh;
+        margin-left: 5vh;
+    }
+
     .quadros{
         display:flex;
         margin-top:50px
+    }
+
+    .quadro1{
+        display: none;
+    }
+
+    .quadro4{
+        display: none;
+    }
+
+    .quadro5{
+        margin-left: 6vh;
+    }
+
+    .precisa{
+        width:340px;
+    }
+
+    .orcamento{
+        margin: auto;
+        margin-top: 2vh;
     }
 
 
