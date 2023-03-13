@@ -5,6 +5,15 @@ body{
     overflow-x:hidden;
 }
 
+.banner{
+    background-image: url(/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center center;
+    filter: blur(2px);
+}
+
 .buton{
     margin-top:90px;
     background-color:#03CFB0;
