@@ -11,7 +11,7 @@ body{
     background-size: cover;
     height: 50vh;
     background-position: center center;
-    filter: blur(2px);
+    filter: blur();
 }
 
 .buton{
@@ -223,6 +223,11 @@ body{
     body{
         background-color:#1A1A21;
         overflow-x: hidden;
+    }
+
+    .banner{
+        height: 25vh;
+        filter: blur();
     }
 
     .escrita{
