@@ -9,6 +9,7 @@ body{
     background-image: url(/img/fundo-otim.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 50vh;
     background-position: center center;
     filter: blur();
