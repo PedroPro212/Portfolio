@@ -229,6 +229,7 @@ body{
     .banner{
         height: 100;
         filter: blur();
+        background-attachment:scroll;
     }
 
     .escrita{
