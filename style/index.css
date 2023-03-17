@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=PT+Serif:ital@1&family=Secular+One&display=swap');
 
-body{
+body,html{
     /*background-color:#1A1A21;*/
     overflow-x:hidden;
 }
@@ -261,6 +261,10 @@ body{
         margin: auto;
         margin-top: 20px;
         margin-bottom: 40px;
+    }
+
+    .imagens{
+        display: none;
     }
 
     .quadro{

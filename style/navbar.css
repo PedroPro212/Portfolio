@@ -48,6 +48,7 @@
   }
   
   .mobile-menu {
+    overflow-x: hidden;
     display: none;
     cursor: pointer;
   }
@@ -85,6 +86,7 @@
       opacity: 0;
     }
     .mobile-menu {
+      overflow-x: hidden;
       display: block;
       overflow: hidden;
     }
