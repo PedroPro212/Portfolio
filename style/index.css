@@ -164,6 +164,11 @@ body,html{
     background-size: cover;
     background-attachment: fixed;
     height: 70vh;
+    display: flex;
+}
+
+.apresentacao{
+    align-self: flex-end;
 }
 
 .quadro1{
