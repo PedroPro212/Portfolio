@@ -167,8 +167,19 @@ body,html{
     display: flex;
 }
 
+.fundo .row{
+    margin-left: 10vh;
+}
+
+.fundo h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .apresentacao{
+    position: absolute;
     align-self: flex-end;
+    right: 0;
 }
 
 .quadro1{
@@ -278,6 +289,10 @@ body,html{
 
     .imagens{
         display: none;
+    }
+
+    .apresentacao{
+        height: 50vh;
     }
 
     .quadro{
