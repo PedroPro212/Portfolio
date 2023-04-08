@@ -51,21 +51,22 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-6" style="margin-top:40px;">
                     <div class="container">
-                        <div class="quadro">
-                            <form id="contact-form" style="color:black" method="post" action="../script/email.php">
+                        <div class="quadro" style="color: black;">
+                            <h3 class="text-center" style="padding-top: 2vh;">Entar em contato</h3>
+                            <form id="contact-form" style="color:black;margin-top: 2vh; padding-left: 2vh ;padding-bottom: 2vh;" method="post" action="../script/email.php">
                                 <label for="name">Nome:</label>
-                                <input type="text" id="name" name="name" required>
+                                <input type="text" id="name" class="nome" name="name" required>
 
-                                <label for="email">Email</label>
-                                <input type="text" id="email" name="email" required>
+                                <label for="tel">Tel:</label>
+                                <input type="number" id="tel" class="telefone" name="tel" required><br>
 
-                                <label for="tel"></label>
-                                <input type="num" id="tel" name="tel" required>
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" class="email" name="email" required><br>
 
-                                <label for="message">Mensagem:</label>
-                                <textarea id="message" name="message" required></textarea>
+                                <label for="message"></label>
+                                <textarea id="message" class="descricao center-block" name="message" required placeholder="Assunto:" style="padding-left: 2px;"></textarea>
 
-                                <button type="submit" name="enviar">Enviar</button>
+                                <button type="submit" class="botao center-block" name="enviar">Enviar</button>
                             </form>
                         </div>
                     </div>

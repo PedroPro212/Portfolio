@@ -50,7 +50,7 @@
             //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
             $mail->send();
-            //echo 'Email enviado com sucesso';
+            
             header("Location: ../pages/orcamento.php");
             exit;
         } catch (Exception $e) {

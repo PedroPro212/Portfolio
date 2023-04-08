@@ -8,7 +8,6 @@ body{
 
 .quadro{
     width:546px; 
-    height:259px; 
     background-color:#c4ceb0; 
     border-radius:20px;
 }
@@ -67,8 +66,16 @@ body{
     /*Celular*/
     .quadro{
         width: 40vh;
-        height: 42vh;
         padding-top: 1px
+    }
+
+    .telefone{
+        width: 30vh;
+        margin-left: 2.5vh;
+    }
+
+    .email{
+        margin-top: 0;
     }
 
     .teste{
