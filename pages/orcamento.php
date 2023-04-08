@@ -25,7 +25,7 @@
           <ul class="nav-list">
             <li><a href="/index.html">Início</a></li>
             <li><a href="/pages/habilidades.html">Habilidades</a></li>
-            <li><a href="/pages/orcamento.html">Orçamento</a></li>
+            <li><a href="/pages/orcamento.php">Orçamento</a></li>
             <li><a href="/pages/contato.html">Contato</a></li>
           </ul>
         </nav>
@@ -58,6 +58,9 @@
 
                                 <label for="email">Email</label>
                                 <input type="text" id="email" name="email" required>
+
+                                <label for="tel"></label>
+                                <input type="num" id="tel" name="tel" required>
 
                                 <label for="message">Mensagem:</label>
                                 <textarea id="message" name="message" required></textarea>
