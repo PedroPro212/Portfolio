@@ -26,7 +26,6 @@
             <li><a href="/index.html">Início</a></li>
             <li><a href="/pages/habilidades.html">Habilidades</a></li>
             <li><a href="/pages/orcamento.php">Orçamento</a></li>
-            <li><a href="/pages/contato.html">Contato</a></li>
           </ul>
         </nav>
     </header>
