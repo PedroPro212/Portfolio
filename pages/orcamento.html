@@ -78,36 +78,6 @@
     </main>
 
     <script src="/script/navbar.js"></script>
-    <script src="/script/email.js"></script>
-
-    <script>
-        $('#contact-form').submit(function(event){
-            event.preventDefault();
-
-            const name = $('#name').val();
-            const email = $('#email').val();
-            const message = $('#message').val();
-
-            // Envia a solicitação por AJAX
-            $.ajax({
-                url: '/send',
-                type: "POST",
-                data: {
-                    name: name,
-                    email: email,
-                    message: message
-                },
-                success: function(response){
-                    console.log(response);
-                    alert('E-mail enviado com sucesso!');
-                },
-                error: function(error){
-                    console.log(error);
-                    alert('Ocorreu um erro ao enviar o e-mail.')
-                }
-            });
-        });
-    </script>
 
 </body>
 </html>
