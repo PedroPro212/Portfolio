@@ -52,7 +52,7 @@
                 <div class="col-sm-6" style="margin-top:40px;">
                     <div class="container">
                         <div class="quadro">
-                            <form id="contact-form" style="color:black">
+                            <form id="contact-form" style="color:black" method="post" action="../script/email.php">
                                 <label for="name">Nome:</label>
                                 <input type="text" id="name" name="name" required>
 
@@ -62,7 +62,7 @@
                                 <label for="message">Mensagem:</label>
                                 <textarea id="message" name="message" required></textarea>
 
-                                <button type="submit">Enviar</button>
+                                <button type="submit" name="enviar">Enviar</button>
                             </form>
                         </div>
                     </div>
