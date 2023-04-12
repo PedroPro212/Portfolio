@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=PT+Serif:ital@1&family=Secular+One&display=swap');
+
+body{
+    background-color:#1A1A21;
+    color:white;
+    overflow-x:hidden;
+}
+
+.quadro{
+    width:546px; 
+    background-color:#c4ceb0; 
+    border-radius:20px;
+}
+
+.txts{
+    color:black;
+    border-radius:5px;
+    border-width:1px;
+    height: 30px;
+}
+
+.nome{
+    width: 30vh;
+}
+
+.email{
+    width: 30vh;
+    margin-top:20px;
+}
+
+.descricao{
+    margin-top:20px;
+    border-radius:5px;
+    border-width:1px;
+    width: 30vh;
+}
+
+.telefone{
+    width: 15vh;
+}
+
+.botao{
+    margin-top:20px;
+    width:35vh;
+    height:35px;
+    background-color:#03CFB0;
+    color:white;
+    font-family: 'Secular One', sans-serif;
+    border-radius:10px;
+    border:none;
+}
+    .botao:hover{
+        background-color:#00b4fc;
+        font-size:15px;
+    }
+.Opcao{
+    margin-top:20px;
+    color:black;
+}
+
+.teste{
+    margin-top:30px;
+}
+
+@media screen and (max-width:480px) and (min-width:320px){
+    /*Celular*/
+    .quadro{
+        width: 40vh;
+        padding-top: 1px
+    }
+
+    .telefone{
+        width: 30vh;
+        margin-left: 2.5vh;
+    }
+
+    .email{
+        margin-top: 0;
+    }
+
+    .teste{
+        margin-top: 5px;
+    }
+}

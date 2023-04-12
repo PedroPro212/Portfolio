@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=PT+Serif:ital@1&family=Secular+One&display=swap');
+
+body{
+    background-color:#1A1A21;
+    color:white;
+    overflow-x:hidden;
+}
+
+.tecnologias{
+    display:inline-block;
+    width:90px;
+    height:32px;
+    margin-top:10px;
+    margin-left:5px;
+    border-style:solid;
+    border-color:#03CFB0;
+    border-width:2px;
+    border-radius:3px;
+    background-color:transparent;
+}
+    .tecnologias:hover{
+        border-color:#386DBD;
+        width:100px;
+        height:35px;
+    }
+.tecnologiasTexto{
+    margin-top:5px;
+    color:white;
+}
+    .tecnologiasTexto:hover{
+        color:#03CFB0;
+    }
+
+.habilidades{
+    width:400px; 
+    margin-top:30px; 
+    border-width:2px; 
+    border-style:solid;
+    border-color:#03CFB0; 
+    border-radius:3px;
+    display: none;
+}
+
+img{
+    margin-top:2vh
+}
+
+#div1{
+    display:none;
+}
+
+ul{
+    margin-left: 4vh;
+}
+
+@media screen and (max-width:480px) and (min-width:320px){
+    /*Celular*/
+    img{
+        width: 40vh;
+    }
+
+    .habilidades{
+        width: 40vh;
+    }
+}
