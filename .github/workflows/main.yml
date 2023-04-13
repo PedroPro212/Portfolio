@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.ftp_host }}
-        username: ${{ secrets.ftp_user }}
-        password: ${{ secrets.ftp_password }}
+        server: 162.241.203.72 / programacaodiaria.com.br
+        username: pedrogamer212004@gmail.com
+        password: Pe212004ho$
         server-dir: public_html/
