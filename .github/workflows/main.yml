@@ -17,4 +17,4 @@ jobs:
         server: ftp.programacaodiaria.com.br
         username: pedrogamer212004@gmail.com
         password: Pe212004ho$
-        server-dir: public_html
+        server-dir: public_html/
