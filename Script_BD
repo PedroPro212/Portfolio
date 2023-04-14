@@ -1,0 +1,12 @@
+CREATE DATABASE portfolio;
+USE portfolio;
+
+CREATE TABLE login(
+  id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  email varchar(100) NOT NULL,
+  senha varchar(50) NOT NULL,
+  codigo_acesso int(6),
+  codigo_recup int(6) 
+);
+
+INSERT INTO login(email, senha) VALUES('pedrogamer212004@gmail.com', '1234')
