@@ -7,7 +7,7 @@
     use PHPMailer\PHPMailer\Exception;
 
     //Load Composer's autoloader
-    require 'phpMailer/vendor/autoload.php';
+    require '../script/phpMailer/vendor/autoload.php';
 
     if(isset($_POST['enviar'])){
         //Create an instance; passing `true` enables exceptions

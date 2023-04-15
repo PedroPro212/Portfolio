@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login ADM</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="/style/login.css" type="text/css" rel="stylesheet">
+    <link href="/style/codigo.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <div class="col-sm-4"></div>
@@ -16,13 +16,12 @@
         <div class="box">
             <img src="/img/code.png" alt="Logo código" width="50" style="margin-top:2vh">
             <h3>Somente para ADMS</h3>
-            <div class="center">
-                <form action="../script/login.php" method="post" class="text-left">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required autocomplete="off">
-
-                    <label for="password" style="margin-top:4vh">Senha:</label>
-                    <input type="password" id="password" name="password" required>
+            <div class="center" id="form">
+                <form action="../../php/login.php" method="post" class="text-center">
+                    <input type="text" class="txtBox center-block" id="txt1" name="txt1" required>
+                    <input type="text" class="txtBox center-block" id="txt2" name="txt2" required>
+                    <input type="text" class="txtBox center-block" id="txt3" name="txt3" required>
+                    <input type="text" class="txtBox center-block" id="txt4" name="txt4" required>
 
                     <button type="submit" id="btnEntrar" name="Entrar">Entrar</button>
                 </form>

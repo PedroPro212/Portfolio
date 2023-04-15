@@ -52,7 +52,7 @@
                     <div class="container">
                         <div class="quadro" style="color: black;">
                             <h3 class="text-center" style="padding-top: 2vh;">Entar em contato</h3>
-                            <form id="contact-form" style="color:black;margin-top: 2vh; padding-left: 2vh ;padding-bottom: 2vh;" method="post" action="../script/email.php">
+                            <form id="contact-form" style="color:black;margin-top: 2vh; padding-left: 2vh ;padding-bottom: 2vh;" method="post" action="../php/email.php">
                                 <label for="name">Nome:</label>
                                 <input type="text" id="name" class="nome" name="name" required>
 
