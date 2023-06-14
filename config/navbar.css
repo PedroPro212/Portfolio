@@ -6,6 +6,12 @@
   body{
     overflow-x:hidden;
   }
+  body::-webkit-scrollbar{
+    width: 7px;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: #03CFB0;
+  }
 
   a {
     color: #fff;

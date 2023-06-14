@@ -6,8 +6,10 @@ body,html{
     overflow-x:hidden;
 }
 
+/*----------------- Topo da página -----------------*/
+
 .banner{
-    background-color: #2D2E32;
+    background-color: #222325d0;
     filter: blur();
     font-family: 'Secular One', sans-serif;
     font-size: 1.1rem;
@@ -91,7 +93,41 @@ body,html{
     position: relative;
 }
 
-/*----------------- Topo da página -----------------*/
+/*----------------- Opções Full Stack -----------------*/
+
+.apresentação-fullstack{
+    color: #FFF;
+    font-family: 'Secular One', sans-serif;
+}
+.apresentação-fullstack-opcoes{
+    background-color: #222325d0;
+    padding: 1rem;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+    .apresentação-fullstack-opcoes:hover{
+        background-color: #2D2E32;
+        transition: ease-in 0.2s;
+    }
+    .apresentação-fullstack-opcoes:hover a{
+        color: #03CFB0;
+        text-decoration: underline;
+    }
+    .apresentação-fullstack-opcoes:hover img{
+        width: 2.5rem;
+        transition: ease-in 0.2s;
+    }
+.apresentação-fullstack img{
+    width: 2rem;
+    position: absolute;
+    right: 5rem;
+}
+.apresentação-fullstack a{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
 
 .buton{
     margin-top:90px;
