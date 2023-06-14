@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="style/index.css" type="text/css" rel="stylesheet">
-    <link href="/style/navbar.css" type="text/css" rel="stylesheet">
+    <link href="config/navbar.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
@@ -22,19 +22,52 @@
             <div class="line3"></div>
           </div>
           <ul class="nav-list">
-            <li><a href="/index.html">Início</a></li>
+            <li><a href="/index.html">< Início /></a></li>
             <li><a href="/pages/habilidades.html">Habilidades</a></li>
+            <li><a href="#">Projetos</a></li>
             <li><a href="/pages/orcamento.php">Orçamento</a></li>
           </ul>
         </nav>
     </header>
     <main>
 
-        <div class="banner col-sm-12">
+        <div class="banner col-sm-12" style="z-index: 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="banner-full">Full Stack Developer</div>
+                        <h2>Deploy na sexta?<br>Claro! O que pode dar errado?</h2>
+                        <p style="margin-bottom: 5rem;">Eu projeto tanto o visual quanto a inteligência do seu sistema <br> com todo amor e detalhe.</p>
             
+                        <a href="https://wa.me/+5535997444848" target="_blank"><u>Vamos aos negócios!</u></a>
+
+                        <div class="banner-project" style="display: flex; text-transform: uppercase;">
+                            <div class="banner-project-anos" style="display: flex;">
+                                <span>+2</span><p>Anos<br>Experiência </p>
+                            </div>
+
+                            <div class="banner-project-project" style="display: flex;">
+                                <span>40</span><p>Projetos completados<br>em 1 ano</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6" style="display: flex;">
+
+                        <div class="borda1" style="display: flex;">
+                            <div class="banner-fundo-imageCSHARP"><img src="img/csharp.svg" alt="C#" width="50"></div>
+                            <div class="banner-fundo-imageJS"><img src="img/javascript.svg" alt="JavaScript" width="55"></div>
+                            <div class="banner-fundo-imageHTML"><img src="img/html5.svg" alt="Html5" width="30"></div>
+
+                            <img  class="banner-perfil" src="img/perfil2.webp" alt="Foto de Perfil" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <section class="container text-left">
+        <section class="container text-left" style="z-index: 99999;">
             <div class="col-sm-4" style="color:white; font-family: 'Secular One', sans-serif;">
                 <a href="/pages/habilidades.html"><input type="button" class="buton" value="Hablidades"></a>
                 <address>
@@ -54,7 +87,7 @@
     
             <div class="col-sm-4"></div>
             <div class="pedro col-sm-4 text-center" style="margin-top:90px;">
-                <div class="borda1"><img  class="perfil" src="img/perfil2.webp" alt="Foto de Perfil" /></div>
+                <!--<div class="borda1"><img  class="perfil" src="img/perfil2.webp" alt="Foto de Perfil" /></div>-->
             </div>
         </section>
         <section class="container text-left" style="margin-top:30px;">
@@ -149,8 +182,8 @@
                     Sempre buscando aperfeiçoar meus talentos como desenvolvedor. Minhas linguagens principais é sem dúvidas C# e JavaScript, mas também programo em C++ e Python. 
                 </p>
                 <div style="margin-top:5vh">
-                    <img src="/img/LogoHtml.svg" alt="Logo Html" class="imgLogosLing" width="128" style="margin-right: 3vh;">
-                    <img src="/img/LogoJavascript.svg" alt="Logo JavaScript" class="imgLogosLing" width="128">
+                    <img src="img/LogoHtml.svg" alt="Logo Html" class="imgLogosLing" width="128" style="margin-right: 3vh;">
+                    <img src="img/LogoJavascript.svg" alt="Logo JavaScript" class="imgLogosLing" width="128">
                 </div>
 
             </div>
@@ -163,7 +196,7 @@
             <div class="col-sm-6">
                 <div class="precisa center-block">
                     <h3>Precisa de um sistema? Site, programa ou automação/bot?</h3>
-                    <a href="/pages/orcamento.php"><div class="orcamento">
+                    <a href="pages/orcamento.php"><div class="orcamento">
                         <p style="text-transform:uppercase; color:white; text-align:center; padding-top:10px;">Se sim, clique aqui</p>
                     </div></a>
                 </div>
@@ -178,6 +211,6 @@
     </main>
     
 
-    <script src="/script/navbar.js"></script>
+    <script src="config/navbar.js"></script>
 </body>
 </html>
