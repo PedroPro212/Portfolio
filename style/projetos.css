@@ -6,6 +6,9 @@ body{
     font-family: 'Secular One', sans-serif;
 }
 
+.container h3{
+    margin-bottom: 1rem;
+}
 .container img{
     width: 30em;
 }
