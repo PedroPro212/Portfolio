@@ -67,6 +67,9 @@ body,html{
     position: fixed;
     bottom: 1rem;
 }
+.banner-project-project, .banner-project-anos{
+    display: flex;
+}
 .banner-project span{
     font-size: 25px;
     margin-right: 0.5rem;
@@ -384,8 +387,14 @@ body,html{
         margin-bottom:10px;
     }
 
+    .banner-project-project{
+        display: none;
+    }
     .banner-perfil{
-        width:280px;
+        width:15rem;
+        display: block; /*------ Modificar aqui!! ------*/
+        position: absolute;
+        margin-left: 17rem;
     }
 
     .notebook{

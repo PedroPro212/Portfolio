@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="/style/orcamento.css" type="text/css" rel="stylesheet">
-    <link href="/style/navbar.css" type="text/css" rel="stylesheet">
+    <link href="../config/navbar.css" type="text/css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -25,7 +25,7 @@
           <ul class="nav-list">
             <li><a href="/index.html">Início</a></li>
             <li><a href="/pages/habilidades.html">Habilidades</a></li>
-            <li><a href="pages/projetos.html">Projetos</a></li>
+            <!--<li><a href="pages/projetos.html">Projetos</a></li>-->
             <li><a href="/pages/orcamento.php">< Orçamento /></a></li>
           </ul>
         </nav>
