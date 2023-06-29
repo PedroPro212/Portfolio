@@ -76,12 +76,12 @@
 
         <footer class="text-center" style="color:white; margin-top:50px;">
             <p>Todos os direitos reservados</p>
-            <p><b>Termos de privacidade – Todos os direitos reservados – Termos de Uso</b></p>
+            <p><b>Termos de privacidade – Todos os direitos reservados – Termos de Uso </br> <time data="2023">2023</time></b></p>
         </footer>
         
     </main>
 
-    <script src="/script/navbar.js"></script>
+    <script src="../config/navbar.js"></script>
 
 </body>
 </html>
