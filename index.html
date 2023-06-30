@@ -9,12 +9,12 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="style/index.css" type="text/css" rel="stylesheet">
-    <link href="/style/navbar.css" type="text/css" rel="stylesheet">
+    <link href="config/navbar.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <nav>
+        <nav style="background-color: #222325d0;">
           <a class="logo" href="/index.html" style="text-decoration: none;">Programação Diária</a>
           <div class="mobile-menu">
             <div class="line1"></div>
@@ -22,29 +22,62 @@
             <div class="line3"></div>
           </div>
           <ul class="nav-list">
-            <li><a href="/index.html">Início</a></li>
-            <li><a href="/pages/habilidades.html">Habilidades</a></li>
-            <li><a href="/pages/orcamento.php">Orçamento</a></li>
+            <li><a href="/index.html">< Início /></a></li>
+            <li><a href="pages/habilidades.html">Habilidades</a></li>
+            <!--<li><a href="pages/projetos.html">Projetos</a></li>-->
+            <li><a href="pages/orcamento.php">Orçamento</a></li>
           </ul>
         </nav>
     </header>
     <main>
 
-        <div class="banner col-sm-12">
+        <div class="banner col-sm-12" style="z-index: 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="banner-full">Full Stack Developer</div>
+                        <h2>Deploy na sexta?<br>Claro! O que pode dar errado?</h2>
+                        <p style="margin-bottom: 5rem;">Eu projeto tanto o visual quanto a inteligência do seu sistema <br> com todo amor e detalhe.</p>
             
+                        <a href="https://wa.me/+5535997444848" target="_blank"><u>Vamos aos negócios!</u></a>
+
+                        <div class="banner-project" style="display: flex; text-transform: uppercase;">
+                            <div class="banner-project-anos">
+                                <span>+2</span><p>Anos<br>Experiência </p>
+                            </div>
+
+                            <div class="banner-project-project">
+                                <span>20</span><p>Projetos completados<br>em 1 ano</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6" style="display: flex;">
+                        
+                        <div class="borda1" style="display: flex;">
+                            <div class="banner-fundo-imageCSHARP"><img src="img/csharp.svg" alt="C#" width="50"></div>
+                            <div class="banner-fundo-imageJS"><img src="img/javascript.svg" alt="JavaScript" width="55"></div>
+                            <div class="banner-fundo-imageHTML"><img src="img/html5.svg" alt="Html5" width="30"></div>
+
+                            <img  class="banner-perfil" src="img/perfil2.webp" alt="Foto de Perfil" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <section class="container text-left">
+        <section class="container text-left" style="z-index: 99999;">
             <div class="col-sm-4" style="color:white; font-family: 'Secular One', sans-serif;">
                 <a href="/pages/habilidades.html"><input type="button" class="buton" value="Hablidades"></a>
                 <address>
                     <h1>Pedro Oliveira</h1>
                     <h6 style="margin-bottom:20px;">Desenvolvedor de Sistemas</h6>
-                    <img src="img/map.png" width="22" alt="icon localização" style="float:left; margin-right:5px;" /><p style="text-align:left;">Paraisópolis Mg, Brasil</p>
+                    <img src="img/map.png" width="22" alt="icon localização" style="float:left; margin-right:5px;" /><a href="https://www.google.com/maps/search/?api=1&query=-22.551866,-45.780858" target="_blank"><p style="text-align:left;">Paraisópolis Mg, Brasil</p></a>
                     <img src="img/phone.png" width="22" alt="icon celular" style="float:left; margin-right:5px;" /><p style="text-align:left;">+55 (35) 997444848</p>
                     <img src="img/email.png" width="22"  alt="icon email" style="float:left; margin-right:5px;" /><p style="text-align:left;">contato@programacaodiaria.com.br</p>
                     <div class="mini_logos row" style="margin-left:0px; margin-top:10px;">
-                        <a href="https://www.instagram.com/pedropro212/" target="_blank"><img  src="img/instagram.png" alt="Instagram" width="24" /></a>
+                        <a href="https://www.instagram.com/programacao_diaria/" target="_blank"><img  src="img/instagram.png" alt="Instagram" width="24" /></a>
                         <a href="https://www.linkedin.com/in/pedro-oliveira-b820811b4/" target="_blank"><img  src="img/linkedin.png" alt="Linkedin" width="24" /></a>
                         <a href="https://github.com/PedroPro212" target="_blank"><img  src="img/github.png" alt="GitHub" width="24" /></a>
                     </div>
@@ -52,9 +85,26 @@
 
             </div>
     
-            <div class="col-sm-4"></div>
-            <div class="pedro col-sm-4 text-center" style="margin-top:90px;">
-                <div class="borda1"><img  class="perfil" src="img/perfil2.webp" alt="Foto de Perfil" /></div>
+            <div class="col-sm-2"></div>
+
+            <div class="apresentação-fullstack col-sm-6" style="display: inline;">
+                <div class="apresentação-fullstack-opcoes apresentação-fullstack-front">
+                    <h3>Front-End <img src="img/code.png" alt="</>"></h3>
+                    <p>Eu desenvolvo toda a parte visual do seu site</p>
+                    <a href="#">5 projetos públicos</a>
+                </div>
+
+                <div class="apresentação-fullstack-opcoes apresentação-fullstack-back">
+                    <h3>Backend <img src="img/backend.svg" alt="()"></h3>
+                    <p>Também toda a mágica por trás do visual</p>
+                    <a href="#">3 projetos públicos</a>
+                </div>
+
+                <div class="apresentação-fullstack-opcoes apresentação-fullstack-bd">
+                    <h3>Banco de Dados <img src="img/database.svg" alt="Banco de Dados"></h3>
+                    <p>Sem contar toda a estrutura de dados</p>
+                    <a href="#">2 projetos públicos</a>
+                </div>
             </div>
         </section>
         <section class="container text-left" style="margin-top:30px;">
@@ -149,8 +199,8 @@
                     Sempre buscando aperfeiçoar meus talentos como desenvolvedor. Minhas linguagens principais é sem dúvidas C# e JavaScript, mas também programo em C++ e Python. 
                 </p>
                 <div style="margin-top:5vh">
-                    <img src="/img/LogoHtml.svg" alt="Logo Html" class="imgLogosLing" width="128" style="margin-right: 3vh;">
-                    <img src="/img/LogoJavascript.svg" alt="Logo JavaScript" class="imgLogosLing" width="128">
+                    <img src="img/LogoHtml.svg" alt="Logo Html" class="imgLogosLing" width="128" style="margin-right: 3vh;">
+                    <img src="img/LogoJavascript.svg" alt="Logo JavaScript" class="imgLogosLing" width="128">
                 </div>
 
             </div>
@@ -163,7 +213,7 @@
             <div class="col-sm-6">
                 <div class="precisa center-block">
                     <h3>Precisa de um sistema? Site, programa ou automação/bot?</h3>
-                    <a href="/pages/orcamento.php"><div class="orcamento">
+                    <a href="pages/orcamento.php"><div class="orcamento">
                         <p style="text-transform:uppercase; color:white; text-align:center; padding-top:10px;">Se sim, clique aqui</p>
                     </div></a>
                 </div>
@@ -173,11 +223,11 @@
 
         <footer class="text-center" style="color:white; margin-top:50px;">
             <p>Todos os direitos reservados</p>
-            <p><b>Termos de privacidade – Todos os direitos reservados – Termos de Uso </br> <time data="2022">2022</time></b></p>
+            <p><b>Termos de privacidade – Todos os direitos reservados – Termos de Uso </br> <time data="2023">2023</time></b></p>
         </footer>
     </main>
     
 
-    <script src="/script/navbar.js"></script>
+    <script src="config/navbar.js"></script>
 </body>
 </html>
