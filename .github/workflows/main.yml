@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: $ns998.hostgator.com.br
+        server: ns998.hostgator.com.br
         username: progr879
         password: Pe212004ho$
         server-dir: public_html/
