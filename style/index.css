@@ -1,18 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=PT+Serif:ital@1&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 body,html{
     /*background-color:#1A1A21;*/
     overflow-x:hidden;
 }
 
+/*----------------- Topo da página -----------------*/
+
 .banner{
-    background-image: url(/img/fundo-otim.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 50vh;
-    background-position: center center;
+    background-color: #222325d0;
     filter: blur();
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.1rem;
+    color: #FFF;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.banner-full{
+    background-color: #03CFB0;
+    display: inline-block;
+    padding: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.2rem;
+    color: #070707;
+}
+.banner-fundo-imageCSHARP{
+    display: flex;
+    position: relative;
+    top: 23rem;
+    left: 52rem;
+    justify-content: center;
+    background-color: #1A1A21;
+    border-radius: 50%;
+    width: 6em; height: 6em;
+    z-index: 99999;
+}
+.banner-fundo-imageJS{
+    display: flex;
+    position: relative;
+    top: 27rem;
+    left: 18rem;
+    justify-content: center;
+    background-color: #1A1A21;
+    border-radius: 50%;
+    width: 9em; height: 9em;
+    z-index: 99999;
+}
+.banner-fundo-imageHTML{
+    display: flex;
+    position: relative;
+    left: 30rem;
+    justify-content: center;
+    background-color: #1A1A21;
+    border-radius: 50%;
+    width: 5em; height: 5em;
+    z-index: 99999;
+}
+.banner a{
+    color: #03CFB0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.banner-project{
+    position: fixed;
+    bottom: 1rem;
+}
+.banner-project-project, .banner-project-anos{
+    display: flex;
+}
+.banner-project span{
+    font-size: 25px;
+    margin-right: 0.5rem;
+}
+.banner-project-anos{
+    margin-right: 8rem;
+}
+.banner-circulo{
+    display: flex;
+    position: fixed;
+    right: 15rem;
+    width: 30em; height: 30em;
+    background-color: #1a1a21cb;
+    border-radius: 50%;
+    z-index: 0;
+    color: #03CFB0;
+}
+.banner-perfil{
+    width:360px;
+    border-radius:50%;
+    border-style:solid;
+    border-color:#1A1A21;
+    border-width:1em;
+    position: relative;
+}
+
+/*----------------- Opções Full Stack -----------------*/
+
+.apresentação-fullstack{
+    color: #FFF;
+    font-family: 'Secular One', sans-serif;
+}
+.apresentação-fullstack-opcoes{
+    background-color: #222325d0;
+    padding: 1rem;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+    .apresentação-fullstack-opcoes:hover{
+        background-color: #2D2E32;
+        transition: ease-in 0.2s;
+    }
+    .apresentação-fullstack-opcoes:hover a{
+        color: #03CFB0;
+        text-decoration: underline;
+        transition: ease-in 0.2s;
+    }
+    .apresentação-fullstack-opcoes:hover img{
+        width: 2.5rem;
+        transition: ease-in 0.2s;
+    }
+.apresentação-fullstack img{
+    width: 2rem;
+    position: absolute;
+    right: 5rem;
+}
+.apresentação-fullstack a{
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 .buton{
@@ -26,14 +144,6 @@ body,html{
 
 .buton:hover{
     background-color:#808080;
-}
-
-.perfil{
-    width:360px;
-    border-radius:50%;
-    border-style:solid;
-    border-color:#070707;
-    border-width:15px;
 }
 
 .botoes{
@@ -277,8 +387,14 @@ body,html{
         margin-bottom:10px;
     }
 
-    .perfil{
-        width:280px;
+    .banner-project-project{
+        display: none;
+    }
+    .banner-perfil{
+        width:15rem;
+        display: block; /*------ Modificar aqui!! ------*/
+        position: absolute;
+        margin-left: 17rem;
     }
 
     .notebook{
@@ -359,14 +475,23 @@ body,html{
         height:40px;
         margin:auto;
     }
+
+    .banner{
+        height: 100%;
+        padding-bottom: 2rem;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width:768px){
     /*Tablet*/
     body{
-        /*background-color:#1A1A21;*/
-        background-color:yellow;
+        background-color:#1A1A21;
         overflow-x: hidden;
+    }
+
+    .banner{
+        height: 100%;
+        padding-bottom: 2rem;
     }
 
     .escrita{
@@ -443,7 +568,7 @@ body,html{
         overflow-x: hidden;
     }
 
-    .perfil{
+    .banner-perfil{
         width: 260px;
     }
 
@@ -493,11 +618,11 @@ body,html{
 @media screen and (min-width:1025px) and (max-width:1200px){
     /*Desktops*/
     body{
-        background-color:blueviolet;
+        background-color: #1A1A21;
         overflow-x: hidden;
     }
 
-    .perfil{
+    .banner-perfil{
         margin-right:50%;
     }
 
