@@ -485,8 +485,7 @@ body,html{
 @media screen and (min-width:481px) and (max-width:768px){
     /*Tablet*/
     body{
-        /*background-color:#1A1A21;*/
-        background-color:yellow;
+        background-color:#1A1A21;
         overflow-x: hidden;
     }
 
@@ -619,7 +618,7 @@ body,html{
 @media screen and (min-width:1025px) and (max-width:1200px){
     /*Desktops*/
     body{
-        background-color:blueviolet;
+        background-color: #1A1A21;
         overflow-x: hidden;
     }
 
