@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="/style/orcamento.css" type="text/css" rel="stylesheet">
-    <link href="/style/navbar.css" type="text/css" rel="stylesheet">
+    <link href="../config/navbar.css" type="text/css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -25,7 +25,8 @@
           <ul class="nav-list">
             <li><a href="/index.html">Início</a></li>
             <li><a href="/pages/habilidades.html">Habilidades</a></li>
-            <li><a href="/pages/orcamento.php">Orçamento</a></li>
+            <!--<li><a href="pages/projetos.html">Projetos</a></li>-->
+            <li><a href="/pages/orcamento.php">< Orçamento /></a></li>
           </ul>
         </nav>
     </header>
@@ -52,7 +53,7 @@
                     <div class="container">
                         <div class="quadro" style="color: black;">
                             <h3 class="text-center" style="padding-top: 2vh;">Entar em contato</h3>
-                            <form id="contact-form" style="color:black;margin-top: 2vh; padding-left: 2vh ;padding-bottom: 2vh;" method="post" action="../script/email.php">
+                            <form id="contact-form" style="color:black;margin-top: 2vh; padding-left: 2vh ;padding-bottom: 2vh;" method="post" action="../php/email.php">
                                 <label for="name">Nome:</label>
                                 <input type="text" id="name" class="nome" name="name" required>
 
@@ -75,12 +76,12 @@
 
         <footer class="text-center" style="color:white; margin-top:50px;">
             <p>Todos os direitos reservados</p>
-            <p><b>Termos de privacidade – Todos os direitos reservados – Termos de Uso</b></p>
+            <p><b>Termos de privacidade – Todos os direitos reservados – Termos de Uso </br> <time data="2023">2023</time></b></p>
         </footer>
         
     </main>
 
-    <script src="/script/navbar.js"></script>
+    <script src="../config/navbar.js"></script>
 
 </body>
 </html>
