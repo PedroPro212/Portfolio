@@ -21,7 +21,7 @@ body{
 }
 
 @media screen and (min-width:481px) and (max-width:1200px){
-    /*Celular*/
+    /*Tablet*/
     .container img{
         width: 25em;
     }
