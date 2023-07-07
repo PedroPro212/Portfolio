@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="style/index.css" type="text/css" rel="stylesheet">
     <link href="config/navbar.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="style/animacao.css">
 </head>
 <body>
 
@@ -24,7 +25,7 @@
           <ul class="nav-list">
             <li><a href="/index.html">< Início /></a></li>
             <li><a href="pages/habilidades.html">Habilidades</a></li>
-            <!--<li><a href="pages/projetos.html">Projetos</a></li>-->
+            <li><a href="pages/projetos.html">Projetos</a></li>
             <li><a href="pages/orcamento.php">Orçamento</a></li>
           </ul>
         </nav>
@@ -32,7 +33,7 @@
     <main>
 
         <div class="banner col-sm-12" style="z-index: 0;">
-            <div class="container">
+            <div class="container hiddenn">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="banner-full">Full Stack Developer</div>
@@ -50,7 +51,6 @@
                                 <span>20</span><p>Projetos completados<br>em 1 ano</p>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-sm-6" style="display: flex;">
                         
@@ -64,10 +64,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
-        <section class="container text-left" style="z-index: 99999;">
+        <section class="container text-left hiddenn" style="z-index: 99999;">
             <div class="col-sm-4" style="color:white; font-family: 'Secular One', sans-serif;">
                 <a href="/pages/habilidades.html"><input type="button" class="buton" value="Hablidades"></a>
                 <address>
@@ -107,7 +106,7 @@
                 </div>
             </div>
         </section>
-        <section class="container text-left" style="margin-top:30px;">
+        <section class="container text-left hiddenn" style="margin-top:30px;">
             <div style="color:white;font-family: 'Secular One', sans-serif;">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-3 text-center">
@@ -122,13 +121,13 @@
             </div>
         </section>
         
-        <section class="container text-left">
+        <section class="container text-left hiddenn">
             <div class="quadros row">
     
                 <div class="quadro col-sm-3">
                     <img  class="center-block" src="img/school.png" alt="Escola" width="50" />
                     <h3 class="text-center">School</h3>
-                    <p class="textleft">Técnico em Desenvolvimento de Sistemas na instituição Senai. Também possui alguns certificados na plataforma Udemy, como de C# e Python.</p>
+                    <p class="textleft">Técnico em Desenvolvimento de Sistemas na instituição Senai. Também tenho alguns certificados na plataforma Udemy, como de C#, React-Native, Python...</p>
                     <div class="botao_SaibaMais center-block">
                         <a href="#" class="text-center"><p>Saiba mais</p></a>
                     </div>
@@ -154,7 +153,7 @@
             </div>
         </section>
     
-        <section class="container" style="margin-top:70px;font-family: 'Secular One', sans-serif;">
+        <section class="container hiddenn" style="margin-top:70px;font-family: 'Secular One', sans-serif;">
     
             <div class="infor row" style="text-align:center; width:80%; margin:auto;">
                 <div class="col-sm-12 text-center" style="font-family: 'Secular One', sans-serif; margin-bottom:30px; color:white; filter:drop-shadow(black 2px 2px 2px);"><h2>A pessoa certa</h2></div>
@@ -208,7 +207,7 @@
             <img class="apresentacao"src="/img/apresentacao.png" alt="Foto de perfil conteúdo" height="579">
         </section>
     
-        <div class="container">
+        <div class="container hiddenn">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <div class="precisa center-block">
@@ -229,5 +228,6 @@
     
 
     <script src="config/navbar.js"></script>
+    <script src="js/animacao.js"></script>
 </body>
 </html>
