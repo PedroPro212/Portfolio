@@ -1,7 +1,7 @@
 .hiddenn{
     opacity: 0;
     filter: blur(15px);
-    transition: all 2s;
+    transition: all 1s;
     transform: translateX(-100%);
 }
 
@@ -10,4 +10,12 @@
     filter: blur(0);
     transition: all 1s;
     transform: translateX(0);
+}
+
+/*Quadros*/
+.quadros :nth-child(2){
+    transition-delay: 400ms;
+}
+.quadros :nth-child(3){
+    transition-delay: 800ms;
 }
