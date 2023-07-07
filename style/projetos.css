@@ -12,3 +12,17 @@ body{
 .container img{
     width: 30em;
 }
+
+@media screen and (max-width:480px) and (min-width:320px){
+    /*Celular*/
+    .container img{
+        width: 20em;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:1200px){
+    /*Celular*/
+    .container img{
+        width: 25em;
+    }
+}
