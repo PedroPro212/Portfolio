@@ -19,3 +19,11 @@
 .quadros :nth-child(3){
     transition-delay: 800ms;
 }
+
+/*Habilidades*/
+.infor :nth-child(3){
+    transition-delay: 400ms;
+}
+.infor :nth-child(4){
+    transition-delay: 800ms;
+}
