@@ -1,0 +1,29 @@
+.hiddenn{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+    transform: translateX(0);
+}
+
+/*Quadros*/
+.quadros :nth-child(2){
+    transition-delay: 400ms;
+}
+.quadros :nth-child(3){
+    transition-delay: 800ms;
+}
+
+/*Habilidades*/
+.infor :nth-child(3){
+    transition-delay: 400ms;
+}
+.infor :nth-child(4){
+    transition-delay: 800ms;
+}

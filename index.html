@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="style/index.css" type="text/css" rel="stylesheet">
     <link href="config/navbar.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="/style/mapa.css">
+    <link rel="stylesheet" href="style/animacao.css">
 </head>
 <body>
 
@@ -25,22 +25,22 @@
           <ul class="nav-list">
             <li><a href="/index.html">< Início /></a></li>
             <li><a href="pages/habilidades.html">Habilidades</a></li>
-            <!--<li><a href="pages/projetos.html">Projetos</a></li>-->
+            <li><a href="pages/projetos.html">Projetos</a></li>
             <li><a href="pages/orcamento.php">Orçamento</a></li>
           </ul>
         </nav>
     </header>
     <main>
 
-        <div class="banner col-sm-12" style="z-index: 0;">
-            <div class="container">
+        <div class="banner col-sm-12" style="z-index: 99999;">
+            <div class="container hiddenn">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="banner-full">Full Stack Developer</div>
                         <h2>Deploy na sexta?<br>Claro! O que pode dar errado?</h2>
                         <p style="margin-bottom: 5rem;">Eu projeto tanto o visual quanto a inteligência do seu sistema <br> com todo amor e detalhe.</p>
             
-                        <a href="https://wa.me/+5535997444848" target="_blank"><u>Vamos aos negócios!</u></a>
+                        <a href="https://wa.me/+5535997444848" target="_blank" style="cursor: pointer;"><u>Vamos aos negócios!</u></a>
 
                         <div class="banner-project" style="display: flex; text-transform: uppercase;">
                             <div class="banner-project-anos">
@@ -51,7 +51,6 @@
                                 <span>20</span><p>Projetos completados<br>em 1 ano</p>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-sm-6" style="display: flex;">
                         
@@ -65,10 +64,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
-        <section class="container text-left" style="z-index: 99999;">
+        <section class="container text-left hiddenn" style="z-index: 99999;">
             <div class="col-sm-4" style="color:white; font-family: 'Secular One', sans-serif;">
                 <a href="/pages/habilidades.html"><input type="button" class="buton" value="Hablidades"></a>
                 <address>
@@ -88,7 +86,7 @@
     
             <div class="col-sm-2"></div>
 
-            <div class="apresentação-fullstack col-sm-6" style="display: inline;">
+            <div class="apresentação-fullstack col-sm-6 hiddenn" style="display: inline;">
                 <div class="apresentação-fullstack-opcoes apresentação-fullstack-front">
                     <h3>Front-End <img src="img/code.png" alt="</>"></h3>
                     <p>Eu desenvolvo toda a parte visual do seu site</p>
@@ -108,7 +106,7 @@
                 </div>
             </div>
         </section>
-        <section class="container text-left" style="margin-top:30px;">
+        <section class="container text-left hiddenn" style="margin-top:30px;">
             <div style="color:white;font-family: 'Secular One', sans-serif;">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-3 text-center">
@@ -123,43 +121,50 @@
             </div>
         </section>
         
-        <section class="container text-left">
+        <section class="container text-left hiddenn">
             <div class="quadros row">
     
-                <div class="quadro col-sm-3">
-                    <img  class="center-block" src="img/school.png" alt="Escola" width="50" />
-                    <h3 class="text-center">School</h3>
-                    <p class="textleft">Técnico em Desenvolvimento de Sistemas na instituição Senai. Também possui alguns certificados na plataforma Udemy, como de C# e Python.</p>
-                    <div class="botao_SaibaMais center-block">
-                        <a href="#" class="text-center"><p>Saiba mais</p></a>
+                <div class="quadro col-sm-3 hiddenn">
+                    <div class="quadro-anim">
+                        <img  class="center-block" src="img/school.png" alt="Escola" width="50" />
+                        <h3 class="text-center">School</h3>
+                        <p class="textleft">Técnico em Desenvolvimento de Sistemas na instituição Senai. Também tenho alguns certificados na plataforma Udemy, como de C#, React-Native, Python...</p>
+                        <div class="botao_SaibaMais center-block">
+                            <a href="#" class="text-center"><p>Saiba mais</p></a>
+                        </div>
+                    </div>
+
+                </div>
+    
+                <div class="quadro col-sm-3 hiddenn">
+                    <div class="quadro-anim">
+                        <img  class="center-block" src="img/code.png" alt="Código" width="50" />
+                        <h3 class="text-center">Job</h3>
+                        <p class="textleft">Já realizei automações de tarefas com Python, como pegar cotações de moedas e transformas em planilhas diárias atualizadas. Já montei sites....</p>
+                        <div class="botao_SaibaMais center-block">
+                            <a href="https://github.com/PedroPro212" class="text-center"><p>GitHub</p></a>
+                        </div>
                     </div>
                 </div>
     
-                <div class="quadro col-sm-3">
-                    <img  class="center-block" src="img/code.png" alt="Código" width="50" />
-                    <h3 class="text-center">Job</h3>
-                    <p class="textleft">Já realizei automações de tarefas com Python, como pegar cotações de moedas e transformas em planilhas diárias atualizadas. Já montei sites....</p>
-                    <div class="botao_SaibaMais center-block">
-                        <a href="https://github.com/PedroPro212" class="text-center"><p>GitHub</p></a>
-                    </div>
-                </div>
-    
-                <div class="quadro col-sm-3">
-                    <img  class="center-block" src="img/camera.png" alt="Câmera" width="50" />
-                    <h3 class="text-center">Blog</h3>
-                    <p class="textleft">No meu dia a dia, eu costumo fazer algumas postagens relacionadas com programação nas minhas redes sociais para descontrair e auxiliar</p>
-                    <div class="botao_SaibaMais center-block">
-                        <a href="https://www.instagram.com/pedropro212/" class="text-center" target="_blank"><p>Instagram</p></a>
+                <div class="quadro col-sm-3 hiddenn">
+                    <div class="quadro-anim">
+                        <img  class="center-block" src="img/camera.png" alt="Câmera" width="50" />
+                        <h3 class="text-center">Blog</h3>
+                        <p class="textleft">No meu dia a dia, eu costumo fazer algumas postagens relacionadas com programação nas minhas redes sociais para descontrair e auxiliar</p>
+                        <div class="botao_SaibaMais center-block">
+                            <a href="https://www.instagram.com/pedropro212/" class="text-center" target="_blank"><p>Instagram</p></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     
-        <section class="container" style="margin-top:70px;font-family: 'Secular One', sans-serif;">
+        <section class="container hiddenn" style="margin-top:70px;font-family: 'Secular One', sans-serif;">
     
             <div class="infor row" style="text-align:center; width:80%; margin:auto;">
                 <div class="col-sm-12 text-center" style="font-family: 'Secular One', sans-serif; margin-bottom:30px; color:white; filter:drop-shadow(black 2px 2px 2px);"><h2>A pessoa certa</h2></div>
-                <div class="informacoes col-sm-4">
+                <div class="informacoes col-sm-4 hiddenn">
                     <div class="conteudo_borda center-block"><img  class="center-block" src="img/designer.png" alt="Design" width="30" style="padding-top:7px;" /></div>
                     <h3>Designer</h3>
                     <p>Eu gosto de trabalhar  com um estilo de designer  simples, visualmente limpo para o usuário.</p>
@@ -169,17 +174,17 @@
                     <p>Figma<br />Canvas<br />Inspiração do cliente</p>
                 </div>
     
-                <div class="informacoes col-sm-4">
+                <div class="informacoes col-sm-4 hiddenn">
                     <div class="conteudo_borda center-block"><img  class="center-block" src="img/html.png" alt="Logo Html" width="30" style="padding-top:7px;" /></div>
                     <h3>Frontend Developer</h3>
-                    <p>Trabalhar na criação de interface gráficas é essencial para a internet</p>
-                    <h6 style="color:#8F3EF4; font-size:16px; filter:drop-shadow(black 2px 2px 2px);">Idiomas que utilizo:</h6>
-                    <p>HTML, CSS, Javascript, Git</p>
+                    <p>Trabalhar na criação de interface gráficas é essencial para seu site.</p>
+                    <h6 style="color:#8F3EF4; font-size:16px; filter:drop-shadow(black 2px 2px 2px);">Ferramentas que utilizo:</h6>
+                    <p>HTML, CSS, Javascript, Bootstrap, React.</p>
                     <h6 style="color:#8F3EF4; font-size:16px; filter:drop-shadow(black 2px 2px 2px);">Framework</h6>
                     <p>Booststrap<br /></p>
                 </div>
              
-                <div class="informacoes col-sm-4">
+                <div class="informacoes col-sm-4 hiddenn">
                     <div class="conteudo_borda center-block"><img  class="center-block" src="img/back.png" alt="Imagem Backend" width="30" style="padding-top:7px;" /></div>
                     <h3>Backend Developer</h3>
                     <p>Sem dúvidas a mágica por trás do Frontend é o Backend, é com ele que toda a mágica acontece</p>
@@ -193,23 +198,30 @@
         </section>
     
         <section class="container-fluid fundo" style="display: flex;margin-top:80px;">
-            <div class="row">
+            <div class="row hiddenn">
                 <h1>Dev</h1>
                 <h2>Full Stack</h2>   
                 <p style="font-size: 20px;">
+<<<<<<< HEAD
                     Sempre buscando aperfeiçoar meus talentos como desenvolvedor. Minhas linguagens principais é sem dúvidas C#, JavaScript e PHP. Mas também programo em C++ e Python. 
                 </p>
                 <div style="margin-top:5vh">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Logo React" class="imgLogosLing" width="128" style="margin-right: 3vh;">
+=======
+                  Sempre buscando aperfeiçoar meus talentos como desenvolvedor. Minhas linguagens principais é sem dúvidas C#, JavaScript e PHP. Mas também programo em C++ e Python. 
+                </p>
+                <div style="margin-top:5vh">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Logo React" class="imgLogosLing" width="128" style="margin-right: 3vh;">
+>>>>>>> dev
                     <img src="img/LogoJavascript.svg" alt="Logo JavaScript" class="imgLogosLing" width="128">
                 </div>
 
             </div>
 
-            <img class="apresentacao"src="/img/apresentacao.png" alt="Foto de perfil conteúdo" height="579">
+            <img class="apresentacao hiddenn"src="/img/apresentacao.png" alt="Foto de perfil conteúdo" height="579">
         </section>
     
-        <div class="container">
+        <div class="container hiddenn">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <div class="precisa center-block">
@@ -230,5 +242,6 @@
     
 
     <script src="config/navbar.js"></script>
+    <script src="js/animacao/animacaIndex.js"></script>
 </body>
 </html>
