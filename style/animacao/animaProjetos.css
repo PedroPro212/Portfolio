@@ -1,0 +1,19 @@
+.hiddenn1{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+.hiddenn2{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 1s;
+    transform: translateX(100%);
+}
+
+.show1, .show2{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 1s;
+    transform: translateX(0);
+}
