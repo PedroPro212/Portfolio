@@ -11,6 +11,8 @@
     <link href="style/index.css" type="text/css" rel="stylesheet">
     <link href="config/navbar.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="style/animacao/animacao.css">
+
+    <script src="js/index.js"></script>
 </head>
 <body>
 
@@ -107,7 +109,7 @@
             </div>
         </section>
         <section class="container text-left hiddenn" style="margin-top:30px;">
-            <div style="color:white;font-family: 'Secular One', sans-serif;">
+            <!-- <div style="color:white;font-family: 'Secular One', sans-serif;">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-3 text-center">
                     <img  class="notebook" src="img/desktop.png" alt="Notebook" width="355" />
@@ -118,6 +120,37 @@
                     <div style="width: 80%;font-size:15px;"><p>Olá. Meu nome é Pedro, sou Desenvolvedor de Sistemas. Atuo principalmente na Web, com HTML, CSS,  JavasCript, C#, Python e entre outras tecnologias....</p></div>
                     <div class="download"><a style="text-decoration:none; color:white; filter:drop-shadow(black 2px 2px 2px);" href="img/Curriculo.pdf" target="_blank">Download Currículo <img  src="img/download.png" alt="Download" width="22" /></a></div>
                 </div>
+            </div> -->
+            <div style="color:white;font-family: 'Roboto Mono', monospace;">
+                <div class="col-sm-12 text-left" style="background-color: #222325d0; padding: 1rem; padding-left: 2rem; margin-bottom: 2rem; border-radius: 0.5rem;">
+                    <h3>Hello!!</h3>
+                    <p id="text"> <!-- Adicione o mesmo ID 'text' aqui -->
+                    </p>
+
+                    <script>
+                        const el = document.querySelector('#text');
+                        const text = "Sou formado na Instituição SENAI, onde concluí o curso de Técnico em Desenvolvimento de Sistemas. Onde obtive excelentes notas em todos os módulos do curso. \n Aprendi a desenvolver sistemas voltados para Desktop e Web, utilizando várias linguagens de programação. Durante o curso trabalhei com C++, C#, JavaScript e MySQL como banco de dados. \n Assim que terminei o curso, passei a trabalhar com PHP, C#, MySQL, HTML, CSS... no dia a dia.";
+                        const interval = 15;
+
+                        function showText(el, text, interval) {
+                            const char = text.split("").reverse();
+
+                            const typer = setInterval(() => {
+                                if (!char.length) {
+                                    return clearInterval(typer);
+                                }
+
+                                const next = char.pop();
+
+                                el.innerHTML += next;
+
+                            }, interval);
+                        }
+
+                        showText(el, text, interval);
+                    </script>
+                </div>
+                <a href="img/Curriculo.pdf" target="_blank" style="text-decoration: none;"><button class="btn fifth center-block">Currículo</button></a>
             </div>
         </section>
         
