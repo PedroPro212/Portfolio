@@ -330,6 +330,23 @@ body,html{
     border-radius:3px;
 }
 
+/*---------- Habilidades ----------   */
+.habilidades{
+    border: solid 2px #03cfb033;
+    border-radius: 0.5em;
+    padding: 1em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+svg{
+    width: 4em;
+}
+.habilidades p{
+    color: #FFFFFF;
+    margin-top: 0.5em;
+}
+
 form input[type="text"]{
     width: 80%;
     height: 4rem;
@@ -491,6 +508,25 @@ form input[type="submit"]{
 
     .imgLogosLing{
         width: 10vh;
+    }
+
+    /*---------- Habilidades ----------   */
+    .habilidades{
+        border: solid 2px #03cfb033;
+        border-radius: 0.5em;
+        /* padding: 1em;
+        padding-bottom: 3em;
+        padding-left: 4em;
+        padding-right: 4em; */
+        width: 18em;
+        
+    }
+    svg{
+        width: 2em;
+    }
+    .habilidades p{
+        color: #FFFFFF;
+        margin-top: 0.5em;
     }
     
     .precisa{
