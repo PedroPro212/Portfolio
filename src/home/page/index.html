@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="icon" type="image/x-icon" href="/img/DEV.png">
+    <link rel="icon" type="image/x-icon" href="../../shared/img/DEV.png">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="style/index.css" type="text/css" rel="stylesheet">
-    <link href="config/navbar.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="style/animacao/animacao.css">
+    <link href="../style/index.css" type="text/css" rel="stylesheet">
+    <link href="../../shared/header/navbar.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../../shared/animacao/animacao.css">
 
     <script src="js/index.js"></script>
 </head>
@@ -18,7 +18,7 @@
 
     <header>
         <nav style="background-color: #222325d0;">
-          <a class="logo" href="/index.html" style="text-decoration: none;">Programação Diária</a>
+          <a class="logo" href="index.html" style="text-decoration: none;">Programação Diária</a>
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
@@ -26,9 +26,8 @@
           </div>
           <ul class="nav-list">
             <li><a href="/index.html">< Início /></a></li>
-            <!-- <li><a href="pages/habilidades.html">Habilidades</a></li> -->
-            <li><a href="pages/projetos.html">Projetos</a></li>
-            <li><a href="pages/orcamento.php">Orçamento</a></li>
+            <li><a href="../../project/page/projetos.html">Projetos</a></li>
+            <li><a href="../../orcamento/page/orcamento.html">Orçamento</a></li>
           </ul>
         </nav>
     </header>
@@ -57,11 +56,11 @@
                     <div class="col-sm-6" style="display: flex;">
                         
                         <div class="borda1" style="display: flex;">
-                            <div class="banner-fundo-imageCSHARP"><img src="img/csharp.svg" alt="C#" width="50"></div>
-                            <div class="banner-fundo-imageJS"><img src="img/javascript.svg" alt="JavaScript" width="55"></div>
-                            <div class="banner-fundo-imageHTML"><img src="img/html5.svg" alt="Html5" width="30"></div>
+                            <div class="banner-fundo-imageCSHARP"><img src="../../shared/img/csharp.svg" alt="C#" width="50"></div>
+                            <div class="banner-fundo-imageJS"><img src="../../shared/img/javascript.svg" alt="JavaScript" width="55"></div>
+                            <div class="banner-fundo-imageHTML"><img src="../../shared/img/html5.svg" alt="Html5" width="30"></div>
 
-                            <img  class="banner-perfil" src="img/perfil2.webp" alt="Foto de Perfil" />
+                            <img  class="banner-perfil" src="../../shared/img/perfil2.webp" alt="Foto de Perfil" />
                         </div>
                     </div>
                 </div>
@@ -74,53 +73,40 @@
                 <address>
                     <h1>Pedro Oliveira</h1>
                     <h6 style="margin-bottom:20px;">Desenvolvedor de Sistemas</h6>
-                    <img src="img/map.png" width="22" alt="icon localização" style="float:left; margin-right:5px;" /><a href="https://www.google.com/maps/search/?api=1&query=-22.551866,-45.780858" target="_blank"><p style="text-align:left;">Paraisópolis Mg, Brasil</p></a>
-                    <img src="img/phone.png" width="22" alt="icon celular" style="float:left; margin-right:5px;" /><p style="text-align:left;">+55 (35) 997444848</p>
-                    <img src="img/email.png" width="22"  alt="icon email" style="float:left; margin-right:5px;" /><p style="text-align:left;">contato@programacaodiaria.com.br</p>
+                    <img src="../../shared/img/map.png" width="22" alt="icon localização" style="float:left; margin-right:5px;" /><a href="https://www.google.com/maps/search/?api=1&query=-22.551866,-45.780858" target="_blank"><p style="text-align:left;">Paraisópolis Mg, Brasil</p></a>
+                    <img src="../../shared/img/phone.png" width="22" alt="icon celular" style="float:left; margin-right:5px;" /><p style="text-align:left;">+55 (35) 997444848</p>
+                    <img src="../../shared/img/email.png" width="22"  alt="icon email" style="float:left; margin-right:5px;" /><p style="text-align:left;">contato@programacaodiaria.com.br</p>
                     <div class="mini_logos row" style="margin-left:0px; margin-top:10px;">
-                        <a href="https://www.instagram.com/programacao_diaria/" target="_blank"><img  src="img/instagram.png" alt="Instagram" width="24" /></a>
-                        <a href="https://www.linkedin.com/in/pedro-oliveira-b820811b4/" target="_blank"><img  src="img/linkedin.png" alt="Linkedin" width="24" /></a>
-                        <a href="https://github.com/PedroPro212" target="_blank"><img  src="img/github.png" alt="GitHub" width="24" /></a>
+                        <a href="https://www.instagram.com/programacao_diaria/" target="_blank"><img  src="../../shared/img/instagram.png" alt="Instagram" width="24" /></a>
+                        <a href="https://www.linkedin.com/in/pedro-oliveira-b820811b4/" target="_blank"><img  src="../../shared/img/linkedin.png" alt="Linkedin" width="24" /></a>
+                        <a href="https://github.com/PedroPro212" target="_blank"><img  src="../../shared/img/github.png" alt="GitHub" width="24" /></a>
                     </div>
                 </address>
-
             </div>
     
             <div class="col-sm-2"></div>
 
             <div class="apresentação-fullstack col-sm-6 hiddenn" style="display: inline;">
                 <div class="apresentação-fullstack-opcoes apresentação-fullstack-front">
-                    <h3>Front-End <img src="img/code.png" alt="</>"></h3>
+                    <h3>Front-End <img src="../../shared/img/code.png" alt="</>"></h3>
                     <p>Eu desenvolvo toda a parte visual do seu site</p>
                     <a href="#">5 projetos públicos</a>
                 </div>
 
                 <div class="apresentação-fullstack-opcoes apresentação-fullstack-back">
-                    <h3>Backend <img src="img/backend.svg" alt="()"></h3>
+                    <h3>Backend <img src="../../shared/img/backend.svg" alt="()"></h3>
                     <p>Também toda a mágica por trás do visual</p>
                     <a href="#">3 projetos públicos</a>
                 </div>
 
                 <div class="apresentação-fullstack-opcoes apresentação-fullstack-bd">
-                    <h3>Banco de Dados <img src="img/database.svg" alt="Banco de Dados"></h3>
+                    <h3>Banco de Dados <img src="../../shared/img/database.svg" alt="Banco de Dados"></h3>
                     <p>Sem contar toda a estrutura de dados</p>
                     <a href="#">2 projetos públicos</a>
                 </div>
             </div>
         </section>
         <section class="container text-left hiddenn" style="margin-top:30px;">
-            <!-- <div style="color:white;font-family: 'Secular One', sans-serif;">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3 text-center">
-                    <img  class="notebook" src="img/desktop.png" alt="Notebook" width="355" />
-                </div>
-                <div class="col-sm-1"></div>
-                <div class="escrita col-sm-6">
-                    <h3 style="margin-bottom:15px; filter:drop-shadow(black 2px 2px 2px)">Follow me</h3>
-                    <div style="width: 80%;font-size:15px;"><p>Olá. Meu nome é Pedro, sou Desenvolvedor de Sistemas. Atuo principalmente na Web, com HTML, CSS,  JavasCript, C#, Python e entre outras tecnologias....</p></div>
-                    <div class="download"><a style="text-decoration:none; color:white; filter:drop-shadow(black 2px 2px 2px);" href="img/Curriculo.pdf" target="_blank">Download Currículo <img  src="img/download.png" alt="Download" width="22" /></a></div>
-                </div>
-            </div> -->
             <div style="color:white;font-family: 'Roboto Mono', monospace;">
                 <div class="col-sm-12 text-left" style="background-color: #222325d0; padding: 1rem; padding-left: 2rem; margin-bottom: 2rem; border-radius: 0.5rem;">
                     <h3>Hello!!</h3>
@@ -150,7 +136,7 @@
                         showText(el, text, interval);
                     </script>
                 </div>
-                <a href="img/Curriculo.pdf" target="_blank" style="text-decoration: none;"><button class="btn fifth center-block">Currículo</button></a>
+                <a href="../../shared/img/Curriculo.pdf" target="_blank" style="text-decoration: none;"><button class="btn fifth center-block">Currículo</button></a>
             </div>
         </section>
         
@@ -159,7 +145,7 @@
     
                 <div class="quadro col-sm-3 hiddenn">
                     <div class="quadro-anim">
-                        <img  class="center-block" src="img/school.png" alt="Escola" width="50" />
+                        <img  class="center-block" src="../../shared/img/school.png" alt="Escola" width="50" />
                         <h3 class="text-center">School</h3>
                         <p class="textleft">Técnico em Desenvolvimento de Sistemas na instituição Senai. Também tenho alguns certificados na plataforma Udemy, como de C#, React-Native, Python...</p>
                         <div class="botao_SaibaMais center-block">
@@ -171,7 +157,7 @@
     
                 <div class="quadro col-sm-3 hiddenn">
                     <div class="quadro-anim">
-                        <img  class="center-block" src="img/code.png" alt="Código" width="50" />
+                        <img  class="center-block" src="../../shared/img/code.png" alt="Código" width="50" />
                         <h3 class="text-center">Job</h3>
                         <p class="textleft">Já realizei automações de tarefas com Python, como pegar cotações de moedas e transformas em planilhas diárias atualizadas. Já montei sites....</p>
                         <div class="botao_SaibaMais center-block">
@@ -182,7 +168,7 @@
     
                 <div class="quadro col-sm-3 hiddenn">
                     <div class="quadro-anim">
-                        <img  class="center-block" src="img/camera.png" alt="Câmera" width="50" />
+                        <img  class="center-block" src="../../shared/img/camera.png" alt="Câmera" width="50" />
                         <h3 class="text-center">Blog</h3>
                         <p class="textleft">No meu dia a dia, eu costumo fazer algumas postagens relacionadas com programação nas minhas redes sociais para descontrair e auxiliar</p>
                         <div class="botao_SaibaMais center-block">
@@ -198,7 +184,7 @@
             <div class="infor row" style="text-align:center; width:80%; margin:auto;">
                 <div class="col-sm-12 text-center" style="font-family: 'Secular One', sans-serif; margin-bottom:30px; color:white; filter:drop-shadow(black 2px 2px 2px);"><h2>A pessoa certa</h2></div>
                 <div class="informacoes col-sm-4 hiddenn">
-                    <div class="conteudo_borda center-block"><img  class="center-block" src="img/designer.png" alt="Design" width="30" style="padding-top:7px;" /></div>
+                    <div class="conteudo_borda center-block"><img  class="center-block" src="../../shared/img/designer.png" alt="Design" width="30" style="padding-top:7px;" /></div>
                     <h3>Designer</h3>
                     <p>Eu gosto de trabalhar  com um estilo de designer  simples, visualmente limpo para o usuário.</p>
                     <h6>O que eu gosto de projetar:</h6>
@@ -208,7 +194,7 @@
                 </div>
     
                 <div class="informacoes col-sm-4 hiddenn">
-                    <div class="conteudo_borda center-block"><img  class="center-block" src="img/html.png" alt="Logo Html" width="30" style="padding-top:7px;" /></div>
+                    <div class="conteudo_borda center-block"><img  class="center-block" src="../../shared/img/html.png" alt="Logo Html" width="30" style="padding-top:7px;" /></div>
                     <h3>Frontend Developer</h3>
                     <p>Trabalhar na criação de interface gráficas é essencial para seu site.</p>
                     <h6 style="color:#8F3EF4; font-size:16px; filter:drop-shadow(black 2px 2px 2px);">Ferramentas que utilizo:</h6>
@@ -218,7 +204,7 @@
                 </div>
              
                 <div class="informacoes col-sm-4 hiddenn">
-                    <div class="conteudo_borda center-block"><img  class="center-block" src="img/back.png" alt="Imagem Backend" width="30" style="padding-top:7px;" /></div>
+                    <div class="conteudo_borda center-block"><img  class="center-block" src="../../shared/img/back.png" alt="Imagem Backend" width="30" style="padding-top:7px;" /></div>
                     <h3>Backend Developer</h3>
                     <p>Sem dúvidas a mágica por trás do Frontend é o Backend, é com ele que toda a mágica acontece</p>
                     <h6>Idiomas que utilizo:</h6>
@@ -239,12 +225,12 @@
                 </p>
                 <div style="margin-top:5vh">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Logo React" class="imgLogosLing" width="128" style="margin-right: 3vh;">
-                    <img src="img/LogoJavascript.svg" alt="Logo JavaScript" class="imgLogosLing" width="128">
+                    <img src="../../shared/img/LogoJavascript.svg" alt="Logo JavaScript" class="imgLogosLing" width="128">
                 </div>
 
             </div>
 
-            <img class="apresentacao hiddenn"src="/img/apresentacao.png" alt="Foto de perfil conteúdo" height="579">
+            <img class="apresentacao hiddenn"src="../../shared/img/apresentacao.png" alt="Foto de perfil conteúdo" height="579">
         </section>
     
         <div class="container hiddenn">
@@ -267,7 +253,7 @@
     </main>
     
 
-    <script src="config/navbar.js"></script>
-    <script src="js/animacao/animacaIndex.js"></script>
+    <script src="../../shared/header/navbar.js"></script>
+    <script src="../../shared/animacao/animacaIndex.js"></script>
 </body>
 </html>
