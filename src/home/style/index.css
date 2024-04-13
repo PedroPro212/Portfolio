@@ -183,7 +183,7 @@ body,html{
     border-color:#03CFB0; 
     border-width:2px;
     width:244px;
-    height: 40rem;
+    height: 32rem;
 }
 /*        .quadro:hover{
     margin-top:50px;
@@ -207,7 +207,6 @@ body,html{
 }
 .botao_SaibaMais{
     width:80%;
-    margin-top: 3rem;
     margin-bottom:10px; 
     border-style:solid; 
     border-color:#03CFB0; 
@@ -330,39 +329,39 @@ body,html{
     border-radius:3px;
 }
 
-/*---------- Habilidades ----------   */
-.habilidades{
-    border: solid 2px #03cfb033;
-    border-radius: 0.5em;
-    padding: 1em;
-    padding-bottom: 3em;
-    padding-left: 4em;
-    padding-right: 4em;
-}
-svg{
-    width: 4em;
-}
-.habilidades p{
-    color: #FFFFFF;
-    margin-top: 0.5em;
+.orcamento:hover{
+    background-color:#00b4fc;
 }
 
-form input[type="text"]{
-    width: 80%;
-    height: 4rem;
-    padding: 0.5rem;
-    margin-top: 0.8rem;
-    color: #333;
-    outline: none;
+.precisa{
+    width:493px; 
+    height:215px; 
+    color:hsl(0, 50%, 50%); 
+    border-color:#00B4CC; 
+    border-style:solid;
+    border-radius:20px;
+    margin-top:70px;
+    font-family: 'Secular One', sans-serif;
 }
-form input[type="submit"]{
-    width: 8rem;
-    height: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: #03CFB0;
-    border: none;
-    border-radius: 0.1rem;
+.precisa h3{
+    text-transform:uppercase; 
+    text-align:center;
+    color:white; 
+    font-size:20px;
+    margin-top:40px;
+    margin-left:30px;
+    margin-right:30px;
+}
+.precisa a{
+    text-decoration:none;
+}
+.orcamento{
+    background-color:#386DBD; 
+    width:220px;
+    height:43px; 
+    margin-left:131px;
+    border-radius:30px; 
+    margin-top:30px;
 }
 
 .fifth {
@@ -396,17 +395,6 @@ form input[type="submit"]{
 }
 .fifth:hover:after {
     width: 110%;
-}
-
-.formDiv1{
-    height: 33rem;
-    background-color: #222325d0; 
-    padding: 2rem;
-}
-.formDiv2{
-    height: 33rem;
-    background-color: #222325d0; 
-    padding: 2rem;
 }
 
 @media screen and (max-width:480px) and (min-width:320px){
@@ -509,25 +497,6 @@ form input[type="submit"]{
     .imgLogosLing{
         width: 10vh;
     }
-
-    /*---------- Habilidades ----------   */
-    .habilidades{
-        border: solid 2px #03cfb033;
-        border-radius: 0.5em;
-        /* padding: 1em;
-        padding-bottom: 3em;
-        padding-left: 4em;
-        padding-right: 4em; */
-        width: 18em;
-        
-    }
-    svg{
-        width: 2em;
-    }
-    .habilidades p{
-        color: #FFFFFF;
-        margin-top: 0.5em;
-    }
     
     .precisa{
         width:270px;
@@ -546,14 +515,6 @@ form input[type="submit"]{
     .banner{
         height: 100%;
         padding-bottom: 2rem;
-    }
-
-    .formDiv1{
-        height: 20rem;    
-    }
-    .formDiv2{
-        height: 35rem;
-        margin-bottom: 13rem;
     }
 }
 
@@ -632,10 +593,6 @@ form input[type="submit"]{
         width:180px;
         height:40px;
         margin:auto;
-    }
-
-        .formDiv1{
-        height: 20rem;    
     }
 }
 
